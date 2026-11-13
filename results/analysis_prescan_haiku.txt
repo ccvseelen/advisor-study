@@ -1,0 +1,25 @@
+=== claude-haiku-5-5, condition 'normal': 24 answers ===
+
+Share APPROVE  (answers with verdict / without)
+level          board_none
+0              0% ( 4/0)
+1              0% ( 4/0)
+2             50% ( 4/0)
+3             75% ( 4/0)
+4            100% ( 4/0)
+5            100% ( 4/0)
+
+Mean PROBABILITY (0-100)
+level          board_none
+0                      36
+1                      41
+2                      50
+3                      54
+4                      62
+5                      66
+
+Fitted tipping point (level at 50 % APPROVE; for the figure, not the test)
+  board_none    2.24
+
+Levels where the control 'board_none' is undecided (15-85 % APPROVE): [2, 3]
+Mean words: 101; cut off at max_tokens: 0; tokens 20308 in, 36645 out
