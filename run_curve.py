@@ -14,7 +14,7 @@ from dossier_levels import build_dossier, FACTS
 
 # --- settings for this measurement (change only these) ---
 MODEL = "claude-haiku-5-5"
-LEVELS = [0, 1, 2, 3, 4, 5]
+LEVELS = [1, 2, 3]
 PERSONAS_TO_RUN = ["board_pro", "board_con", "board_none"]
 CONDITIONS_TO_RUN = ["normal", "accountable"]      # later: ["normal", "accountable"]
 RUNS = 20                           # per persona, level and condition; a multiple of 4
