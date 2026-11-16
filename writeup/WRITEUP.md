@@ -18,7 +18,7 @@ Supervisory boards decide on proposals prepared by people who know more than the
 
 ## 2 Method
 
-**Case.** A synthetic decision: Nordwerk, a brake-component maker, proposes to move its main plant to Eastern Europe. The dossier has six fixed facts (among them a payback of 3.4 to 4.4 years) and five open points (customers, transition, CO2, downside scenario, social plan), each stated either as a risk or as resolved. **Level k** resolves the first k points: six dossiers from weakest (0) to strongest (5).
+**Case.** A synthetic decision: Nordwerk, a brake-component maker, proposes to move its main plant from Germany to Eastern Europe. The dossier has six fixed facts (among them a payback of 3.4 to 4.4 years) and five open points (customers, transition, CO2, downside scenario, social plan), each stated either as a risk or as resolved. **Level k** resolves the first k points: six dossiers from weakest (0) to strongest (5).
 
 **Askers.** Three supervisory board members: convinced, doubtful, and a control without a stance. Each stance has four wordings, rotated over the runs. All add "I have no information beyond this dossier", so the stance carries no evidence.
 
@@ -80,7 +80,7 @@ Fable approved in all 72 answers, including all 12 at level 0, where Haiku appro
 
 - **Probability.** Fable's probabilities rose from 61 to 80 across levels and were very stable (standard deviation within cells 1.1 points; Haiku 5.8). The convinced asker received 1.3 points more than the doubtful one [0.8, 1.8]. At the control's slope of 3.9 points per level this is about **0.33 levels**, against 0.88 for Haiku. All of it came from the doubtful asker. Measured against each model's own run-to-run noise, the two effects are similar.
 - **Pushback.** In 8 of 24 answers to the doubtful asker Fable addressed the stance directly, three times contradicting it ("contrary to your view"). To the asker who called the move "clearly the right decision" it replied in 3 of 6 answers that the case was favourable but not clearly so. Haiku never addressed the asker's view directly in 720 answers.
-- **Adopting the frame.** In 49 of 72 answers Fable asserted that staying means paying for modernisation "without closing the gap" to the competitor. The dossier does not say this; it lists a modernisation cost and is silent on its effect. A keyword search for outside benchmarks, such as usual payback requirements, found none in Fable's answers. From my experience in the automotive industry, a payback above four years would be challenged. Fable checked the proposal's arithmetic but did not ask whether the proposal asks the right questions. My prompt ("based on the dossier", 100 words) may have caused this; it is what I would test next.
+- **Adopting the frame.** In 49 of 72 answers Fable asserted that staying means paying for modernisation "without closing the gap" to the competitor. The dossier does not say this; it lists a modernisation cost and is silent on its effect. A keyword search for outside benchmarks, such as usual payback requirements, found none in Fable's answers. As an experienced supervisory board member I would have challenged at least two premises: a payback above four years, and the unstated effect of the modernisation alternative. Neither was planted as a test. Fable checked the proposal's arithmetic but did not ask whether the proposal asks the right questions. My prompt ("based on the dossier", 100 words) may have caused this; it is what I would test next.
 
 ## 4 Limitations
 
@@ -92,10 +92,10 @@ Fable approved in all 72 answers, including all 12 at level 0, where Haiku appro
 
 ## 5 What I would do next
 
-1. **Dose–response:** the same stance at graded strength ("I lean towards", "I believe", "I am firmly convinced"), pre-specified, to test whether sycophancy scales with expressed commitment.
-2. **Frame adoption:** let the model use outside knowledge and count whether it challenges the proposal's premises; plant an inconsistency in the dossier and measure which models notice it.
+1. **Dose–response:** the same stance at graded strength, for agreement and for doubt ("I lean towards", "I believe", "I am firmly convinced"), pre-specified, to test whether sycophancy scales with expressed commitment.
+2. **Frame adoption:** explicitly invite the model to use outside knowledge and count whether it challenges the proposal's premises; plant an inconsistency in the dossier and measure which models notice it.
 3. **Accountability:** vary who is held accountable (model or asker) and test whether "being checked" creates a bias towards action.
-4. **Scale:** several cases, randomised combinations of open points, an option to defer, more models, cluster-adjusted errors.
+4. **Scale:** several cases, randomised combinations of open points, an option to defer, more models, cluster-adjusted errors, and more answers per cell for narrower intervals.
 
 ## 6 How this was produced
 
