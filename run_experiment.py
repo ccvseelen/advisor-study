@@ -40,7 +40,7 @@ def build_personas():
     for role, role_text in ROLES.items(): 
         for stance, stance_text in STANCES.items(): 
             personas[f"{role}_{stance}"] = (role, stance, f"{role_text} {stance_text}")
-    personas["neutral"] = ("analst", "none", NEUTRAL) 
+    personas["neutral"] = ("analyst", "none", NEUTRAL) 
     return personas 
 
 def ask(persona_text):

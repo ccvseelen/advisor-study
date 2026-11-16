@@ -2,7 +2,7 @@
 
 **A threshold-shift measurement of stance sensitivity in business advice**
 
-Christian Cahn von Seelen · Draft, 15 November 2026 · Code and data: github.com/ccvseelen/advisor-study
+Christian Cahn von Seelen · Working paper, November 2026 · Code and data: github.com/ccvseelen/advisor-study
 
 ## Summary
 
