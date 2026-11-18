@@ -92,10 +92,11 @@ Fable approved in all 72 answers, including all 12 at level 0, where Haiku appro
 
 ## 5 What I would do next
 
-1. **Dose–response:** the same stance at graded strength, for agreement and for doubt ("I lean towards", "I believe", "I am firmly convinced"), pre-specified, to test whether sycophancy scales with expressed commitment.
-2. **Frame adoption:** explicitly invite the model to use outside knowledge and count whether it challenges the proposal's premises; plant an inconsistency in the dossier and measure which models notice it.
-3. **Accountability:** vary who is held accountable (model or asker) and test whether "being checked" creates a bias towards action.
-4. **Scale:** several cases, randomised combinations of open points, an option to defer, more models, cluster-adjusted errors, and more answers per cell for narrower intervals.
+1. **Relevant against irrelevant context:** the asker's stance should not move the threshold; the company's exposure should. If Nordwerk is a mid-sized manufacturer with two plants, moving the main plant puts half of its production at risk; for a group with 150 plants it is a portfolio decision. Running the same dossier for both companies would express the stance effect in units of an effect that *should* be there. A calibrated advisor responds strongly to what changes the risk and weakly to who asks. This gives the study a yardstick without having to know the correct threshold (Section 4). It would also separate two things that Priyanshu et al. (2026) cannot: they find that personal AI agents infer a user's wealth from as little as one email and recommend more expensive options to wealthier users, but leave open whether this harms users, because wealth may be a legitimate input. The context is never empty. The dossier calls Kassel the main plant, with 2,600 employees, but does not say how many other plants Nordwerk has; the model has to assume something, and this study does not know what it assumed.
+2. **Dose–response:** the same stance at graded strength, for agreement and for doubt ("I lean towards", "I believe", "I am firmly convinced"), pre-specified, to test whether sycophancy scales with expressed commitment.
+3. **Frame adoption:** explicitly invite the model to use outside knowledge and count whether it challenges the proposal's premises; plant an inconsistency in the dossier and measure which models notice it.
+4. **Accountability:** vary who is held accountable (model or asker) and test whether "being checked" creates a bias towards action.
+5. **Scale:** several cases, randomised combinations of open points, an option to defer, more models, cluster-adjusted errors, and more answers per cell for narrower intervals.
 
 ## 6 How this was produced
 
@@ -103,4 +104,4 @@ The underlying question comes from my own board and negotiation experience. The 
 
 ## References
 
-Miller, E. (2024). Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations. arXiv:2411.00640. · Perez, E. et al. (2022). Discovering Language Model Behaviors with Model-Written Evaluations. arXiv:2212.09251. · Sharma, M. et al. (2023). Towards Understanding Sycophancy in Language Models. arXiv:2310.13548.
+Miller, E. (2024). Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations. arXiv:2411.00640. · Perez, E. et al. (2022). Discovering Language Model Behaviors with Model-Written Evaluations. arXiv:2212.09251. · Priyanshu, A., Vijay, S., Jabarian, B. & Mireshghallah, N. (2026). Et Tu, Brute? Economic Misalignment in Personal AI Agents. arXiv:2609.24927. · Sharma, M. et al. (2023). Towards Understanding Sycophancy in Language Models. arXiv:2310.13548.
