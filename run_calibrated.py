@@ -15,7 +15,7 @@ import anthropic
 from dossier_calibrated import build_dossier, FACTS, VARIANTS
 
 # --- settings (change only these) ---
-MODE = "pilot"                      # "pilot" first, then "main"
+MODE = "main"                      # "pilot" first, then "main"
 
 if MODE == "pilot":
     # control only, four calibrations, three levels, two answers each = 24 calls
@@ -24,7 +24,7 @@ if MODE == "pilot":
     PERSONAS_TO_RUN = ["board_none"]
     RUNS = 2
 else:
-    VARIANTS_TO_RUN = ["?"]         # fill in the variant chosen after the pilot
+    VARIANTS_TO_RUN = ["B"]         # fill in the variant chosen after the pilot
     LEVELS = [0, 1, 2, 3, 4, 5]
     PERSONAS_TO_RUN = ["board_pro", "board_con", "board_none"]
     RUNS = 20                       # a multiple of 4; 12 if the budget is short
