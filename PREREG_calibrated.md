@@ -1,6 +1,5 @@
 # Pre-specification: Fable 5.2 on a recalibrated case
 
-Draft by Claude, 22 November 2026, to be reviewed and committed by Christian **before the pilot starts**.
 
 ## Why
 
@@ -23,6 +22,8 @@ Only the annual labour savings (fact 1). The payback figures and the downside bo
 - Control persona only, variants A–D, levels 0, 2 and 5, two answers each (wordings 1 and 2), 24 calls.
 - **Selection rule:** choose the variant whose control rejects at level 0 (≤ 50 % APPROVE) and approves at level 5 (≥ 50 %). If several qualify, choose the one whose share at level 2 is closest to 50 %. If that is still tied, choose the one whose mean probability at level 2 is closest to the midpoint of levels 0 and 5. If no variant qualifies, the main run does not start.
 - The choice uses control answers only. No answer from a persona with a stance is seen before the main run.
+
+Pilot results again surprisingly pro-relocation. 
 
 ## Step 2: main run (pre-specified analysis)
 
