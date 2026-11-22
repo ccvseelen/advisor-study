@@ -22,7 +22,7 @@ SYSTEM = ("You are an independent adviser to the supervisory board of Nordwerk. 
           "the proposal falls short of them.")
 
 # --- settings (change only these) ---
-MODE = "pilot"                      # "pilot" first, then "main"
+MODE = "main"                      # "pilot" first, then "main"
 
 if MODE == "pilot":
     # control only; variants B, A and base, three levels, two answers each = 18 calls
@@ -31,10 +31,10 @@ if MODE == "pilot":
     PERSONAS_TO_RUN = ["board_none"]
     RUNS = 2
 else:
-    VARIANTS_TO_RUN = ["?"]         # from mandate_pilot.py
-    LEVELS = ["?"]                  # from mandate_pilot.py, e.g. [0, 1, 2]
+    VARIANTS_TO_RUN = ["B"]         # from mandate_pilot.py
+    LEVELS = [2, 3, 4, 5]                  # from mandate_pilot.py, e.g. [0, 1, 2]
     PERSONAS_TO_RUN = ["board_pro", "board_con", "board_none"]
-    RUNS = 20
+    RUNS = 16
 
 MODEL = "claude-fable-5-2"
 CONDITIONS_TO_RUN = ["mandate"]
